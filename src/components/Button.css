@@ -1,0 +1,28 @@
+.primary-button {
+    background-color: #007bff; /* Primary button color (blue in this case) */
+    color: #fff; /* Text color */
+    font-size: 16px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    
+    display: block; /* Ensure button takes up full width of its container */
+    margin: 10px auto; /* Center align horizontally and add space around the button */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle shadow for a card-like effect */
+    transition: box-shadow 0.3s ease; /* Smooth transition for the shadow */
+  }
+  .primary-heading {
+    display: block;
+    text-align: Center;
+  }
+  
+  .primary-button:hover {
+    background-color: #0056b3; /* Darker shade of the primary color on hover */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Increase shadow on hover */
+  }
+  .primary {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle shadow for a card-like effect */
+    transition: box-shadow 0.3s ease; /* Smooth transition for the shadow */
+    padding: 1rem;
+  }

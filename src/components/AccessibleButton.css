@@ -1,0 +1,50 @@
+.accessible-button {
+    background-color: green; /* Button background color (blue in this case) */
+    color: #fff; /* Text color */
+    font-size: 16px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    outline: none; /* Remove default focus outline */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle shadow for a card-like effect */
+    transition: background-color 0.3s ease, box-shadow 0.3s ease; /* Smooth transitions */
+  
+    /* Centering */
+    display: block; /* Ensure button takes up only necessary width */
+    text-align: center; /* Align text inside the button */
+  }
+  
+  .accessible-button:hover {
+    background-color: #0056b3; /* Darker shade of the primary color on hover */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Increase shadow on hover */
+  }
+  
+  .accessible-button:focus {
+    /* Style when button is focused */
+    outline: 2px solid #ffa500; /* Orange outline on focus */
+  }
+  
+  .accessible-button:active {
+    /* Style when button is pressed */
+    transform: translateY(1px); /* Move button down slightly on click */
+  }
+  
+  /* Additional styles to center button on the page */
+  .body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 1rem;
+    padding: 1rem;
+    margin: 0;
+  }
+  .custom-heading {
+    display: block;
+  }
+  .custom {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle shadow for a card-like effect */
+    transition: box-shadow 0.3s ease; /* Smooth transition for the shadow */
+    padding: 1rem;
+  }
+  

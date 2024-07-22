@@ -1,0 +1,24 @@
+.secondary-button {
+    background-color: #6c757d; /* Secondary button color (gray in this case) */
+    color: #fff; /* Text color */
+    font-size: 16px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    display: block; /* Ensure button takes up full width of its container */
+    margin: 10px auto; /* Center align horizontally and add space around the button */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle shadow for a card-like effect */
+    transition: background-color 0.3s ease, box-shadow 0.3s ease; /* Smooth transitions */
+  }
+  
+  .secondary-button:hover {
+    background-color: #5a6268; /* Darker shade of the secondary color on hover */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Increase shadow on hover */
+  }
+  .primary {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle shadow for a card-like effect */
+    transition: box-shadow 0.3s ease; /* Smooth transition for the shadow */
+    padding: 1rem;
+  }
+  
